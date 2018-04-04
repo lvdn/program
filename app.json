@@ -1,0 +1,44 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#001F3F",
+    "navigationBarTitleText": "我在写程序",
+    "navigationBarTextStyle":"white",
+    "backgroundColor": "#eeeeee",
+    "enablePullDownRefresh": true,
+    "onReachBottomDistance": 50
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "资讯"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "发现"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "我的"
+      }
+    ],
+    "color": "#aaa",
+    "selectedColor": "#f56954",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
